@@ -88,12 +88,12 @@
   <main>
     <p class="brand">AP SHIFT</p>
     <h1>Privacy Policy & Terms</h1>
-    <p class="updated">Last updated: August 27, 2026</p>
+    <p class="updated">Last updated: October 3, 2026</p>
 
     <section>
       <h2>PRIVACY AT A GLANCE</h2>
       <p>
-        AP Shift stores character sheets, encounter information, dice appearance settings,
+        AP Shift stores character sheets, notes, encounter information, dice appearance settings,
         and roll history on your device. The app does not require an account and does not use
         advertising, analytics, or tracking.
       </p>
@@ -103,13 +103,25 @@
       <h2>YOUR DATA</h2>
       <p>
         AP Shift does not operate a server that receives or stores your character information.
-        Your data remains in the app's local device storage unless you choose to export a backup
-        or share a character file.
+        Your data is stored locally. You can choose to export a backup or share a character file;
+        operating-system backups and cloud-synced folders may also create copies as described below.
       </p>
       <p>
-        When you use Export Backup or Share, your device's share sheet sends the selected JSON
+        On iOS and Android, when you use Export Backup or Share, your device's share sheet sends the selected JSON
         file only to the destination you choose. When you use Restore Backup or Import Character,
         AP Shift reads only the file you select.
+      </p>
+      <p>
+        On Windows, Export Backup and Share use a Save dialog to save the JSON file to the
+        location you choose. Character summaries can also be saved as text files. Restore Backup
+        and Import Character use an Open dialog, and AP Shift reads only the file you select.
+        Saving a file does not automatically send it to another player.
+      </p>
+      <p>
+        Depending on your device settings, your operating system or a cloud-storage provider
+        may back up app data or synchronize files saved in folders such as OneDrive or iCloud Drive.
+        Those services are controlled by your settings and their providers' privacy policies.
+        AP Shift itself does not provide automatic cloud synchronization between devices.
       </p>
     </section>
 
@@ -142,7 +154,8 @@
     <section>
       <h2>THIRD-PARTY SOFTWARE</h2>
       <p>
-        AP Shift is built with open-source software, including Expo and React Native. Those
+        AP Shift is built with open-source software, including Expo and React Native, and Electron
+        for the Windows desktop app. Those
         projects and their contributors retain their respective rights under their applicable
         licenses.
       </p>
