@@ -88,23 +88,33 @@
   <main>
     <p class="brand">AP SHIFT</p>
     <h1>Privacy Policy & Terms</h1>
-    <p class="updated">Last updated: October 3, 2026</p>
+    <p class="updated">Last updated: October 19, 2026</p>
 
     <section>
       <h2>PRIVACY AT A GLANCE</h2>
       <p>
-        AP Shift stores character sheets, notes, encounter information, dice appearance settings,
-        and roll history on your device. The app does not require an account and does not use
-        advertising, analytics, or tracking.
+        AP Shift stores character sheets, notes, dice appearance settings, and roll history on
+        your device. The app does not require you to create an account and does not use advertising,
+        analytics, or tracking. Connected Mode is optional and sends the session data described
+        below to AP Shift's Supabase service so participants in the same room can play together.
       </p>
     </section>
 
     <section>
       <h2>YOUR DATA</h2>
       <p>
-        AP Shift does not operate a server that receives or stores your character information.
-        Your data is stored locally. You can choose to export a backup or share a character file;
-        operating-system backups and cloud-synced folders may also create copies as described below.
+        Offline data remains on your device unless you export or share it. When you use Connected
+        Mode, AP Shift creates an anonymous service identifier and sends your display name, room and
+        membership information, assigned character data, NPC and encounter state, initiative and
+        action results, combat updates, and session messages to Supabase. This information is used
+        to synchronize the active room across participating devices.
+      </p>
+      <p>
+        People in the same room can see the session information intended for that room. Private
+        messages are limited by the session's recipient rules. Do not enter sensitive personal
+        information in character sheets, display names, custom targets, or messages. Connected Mode
+        records may remain on the service after a session ends for operation, security, and support
+        purposes.
       </p>
       <p>
         On iOS and Android, when you use Export Backup or Share, your device's share sheet sends the selected JSON
@@ -121,7 +131,8 @@
         Depending on your device settings, your operating system or a cloud-storage provider
         may back up app data or synchronize files saved in folders such as OneDrive or iCloud Drive.
         Those services are controlled by your settings and their providers' privacy policies.
-        AP Shift itself does not provide automatic cloud synchronization between devices.
+        Connected Mode synchronization is provided through Supabase and is separate from those
+        device backup services.
       </p>
     </section>
 
@@ -155,9 +166,9 @@
       <h2>THIRD-PARTY SOFTWARE</h2>
       <p>
         AP Shift is built with open-source software, including Expo and React Native, and Electron
-        for the Windows desktop app. Those
-        projects and their contributors retain their respective rights under their applicable
-        licenses.
+        for the Windows desktop app. Connected Mode uses Supabase for anonymous authentication,
+        hosted data, and realtime synchronization. Those projects and service providers retain
+        their respective rights and apply their own licenses and privacy terms.
       </p>
     </section>
 
